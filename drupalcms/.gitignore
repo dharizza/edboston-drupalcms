@@ -1,0 +1,7 @@
+web/core
+web/modules/contrib
+web/themes/contrib
+web/libraries
+web/sites/default/files
+vendor
+recipes
