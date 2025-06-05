@@ -1,0 +1,14 @@
+name: 'Custom - Password Policy 90 Days'
+description: 'Installs and configures Password Policy and sets 90 day expiration default.'
+type: 'Site'
+recipes:
+  - saplings-password-policy-90-days
+
+config:
+  strict: false
+  actions:
+    password_policy.password_policy.change_after_90_days:
+      simpleConfigUpdate:
+        send_pending_email:
+          - 10
+          - 3
