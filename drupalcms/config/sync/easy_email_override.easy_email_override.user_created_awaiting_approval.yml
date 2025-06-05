@@ -1,0 +1,25 @@
+uuid: 8533e4e9-3aa7-4283-a509-10acfef0ac3b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: QN9QzhoJiXRShTGADAWVj7tLGjQeaw0XmiapZ-ByqOI
+label: 'User: Created - Awaiting Approval'
+id: user_created_awaiting_approval
+param_map:
+  -
+    source: account
+    destination: recipient_uid
+copied_fields:
+  from: false
+  reply_to: false
+  to: false
+  cc: false
+  bcc: false
+  subject: false
+  body_html: false
+  body_plain: false
+  attachments: false
+module: user
+key: register_pending_approval
+easy_email_type: user_created_awaiting_approval

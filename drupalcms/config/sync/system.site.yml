@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: HlN7eAN2N4JIHsYv56V4E7sqC9bS609KwvGFjyD_mgk
+langcode: en
+uuid: 23640613-abda-46a2-a17b-4ca9761cbc72
+name: 'Evolve Drupal Boston'
+mail: dharizza.espinach@evolvingweb.com
+slogan: ''
+page:
+  403: /user/login
+  404: ''
+  front: /node/2
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null
