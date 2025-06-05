@@ -9,6 +9,7 @@ dependencies:
     - media.type.remote_video
     - media.type.svg_image
     - node.type.blog
+    - node.type.case_study
     - node.type.event
     - node.type.news
     - node.type.page
@@ -48,6 +49,7 @@ permissions:
   - 'administer redirects'
   - 'administer url aliases'
   - 'create blog content'
+  - 'create case_study content'
   - 'create document media'
   - 'create event content'
   - 'create image media'
@@ -58,6 +60,7 @@ permissions:
   - 'create svg_image media'
   - 'create url aliases'
   - 'delete any blog content'
+  - 'delete any case_study content'
   - 'delete any document media'
   - 'delete any event content'
   - 'delete any image media'
@@ -67,12 +70,14 @@ permissions:
   - 'delete any remote_video media'
   - 'delete any svg_image media'
   - 'delete blog revisions'
+  - 'delete case_study revisions'
   - 'delete event revisions'
   - 'delete news revisions'
   - 'delete own files'
   - 'delete page revisions'
   - 'delete person revisions'
   - 'edit any blog content'
+  - 'edit any case_study content'
   - 'edit any document media'
   - 'edit any event content'
   - 'edit any image media'

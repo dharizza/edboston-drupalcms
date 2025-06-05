@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - node.type.blog
+    - node.type.case_study
     - node.type.event
     - node.type.news
     - node.type.page
@@ -58,6 +59,7 @@ type_settings:
   entity_types:
     node:
       - blog
+      - case_study
       - event
       - news
       - page
